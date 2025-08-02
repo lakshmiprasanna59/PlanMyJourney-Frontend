@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)file:///D:/front-end/Landscape/user.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Again, Explorer!</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="./Hello Again, Explorer!_files/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link href="./Hello Again, Explorer!_files/css2" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./Hello Again, Explorer!_files/all.min.css">
+
+    <!-- Common Style Sheet -->
+    <link rel="stylesheet" href="./Hello Again, Explorer!_files/style.css">
+
+    <style>
+        .middle {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .box {
+            background-color: whitesmoke;
+            height: 100%;
+            width: 100%;
+        }
+        .hover {
+            background-color: rgba(128, 128, 128, 0.5);
+        }
+    </style>
+
+</head>
+<body>
+    <div class="bg-white">
+        <div>
+            <nav class="navbar navbar-expand-lg  nav">
+                <div class="container-fluid">
+                    <a class="navbar-brand mx-5" href="file:///D:/front-end/Landscape/index.html">
+                        <img src="./Hello Again, Explorer!_files/Wlogo.png" alt="Sharnap" height="70" width="70">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <!-- Left-side nav items -->
+                        <ul class="navbar-nav">
+                            <li class="nav-item mx-4">
+                                <a class="nav-link active text-light" aria-current="page" href="file:///D:/front-end/Landscape/index.html">Home</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="file:///D:/front-end/Landscape/about.html">About</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="file:///D:/front-end/Landscape/service.html">Services</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="file:///D:/front-end/Landscape/index.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="file:///D:/front-end/Landscape/index.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="conatiner">
+                <div class="row">
+                    <!-- Image Side -->
+                    <div class="col-md-6">
+                        <img src="./Hello Again, Explorer!_files/u1.webp" alt="Welcome Explorer..." class="img-fluid" style="height: 100%; width: 100%;">
+                    </div>
+                    <!-- Form side -->
+                    <div class="col-md-6">
+                        <div class="box py-5">
+                            <div class="middle">
+                                <i class="fa-solid fa-users fa-4x mb-4"></i>
+                            </div>
+                            <!-- Toggle Buttons -->
+                            <div class="d-flex justify-content-around">
+                                <button class="btn col-6 hover rounded-0 border border-3 border-top-0 border-bottom-0 border-start-0 border-dark" id="showLogin">Login</button>
+                                <button class="btn col-6 hover rounded-0 border border-3 border-top-0 border-bottom-0 border-end-0 border-dark" id="showRegister">Register</button>
+                            </div>
+
+                            <!-- Login Form -->
+                            <form id="loginForm" action="file:///D:/front-end/Landscape/user.html">
+                                <h4 class="mb-3 text-center">Welcome Back!</h4>
+                                <!-- Mail -->
+                                <div class="form-floating mb-3">
+                                    <input type="email" name="loginMail" id="loginMail" class="form-control rounded-0 text-dark border-dark border-2 fontH" placeholder="Damon@vampire.com" required="">
+                                    <label for="loginMail" class="text-dark">Email</label>
+                                </div>
+
+                                <!-- Password -->
+                                <div class="form-floating mb-3">
+                                    <input type="password" name="password" id="password" class="form-control rounded-0 text-dark border-dark border-2 fontH" placeholder="Damon@123" required="">
+                                    <label for="password" class="text-dark">Password</label>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary w-100">Login</button>
+                            </form>
+
+                            <!-- Register Form -->
+                            <form id="registerForm" style="display: none;" action="file:///D:/front-end/Landscape/user.html">
+                                <h4 class="mb-3">Create a New Account</h4>
+                                <!-- Name -->
+                                <div class="form-floating mb-3">
+                                    <input type="text" name="name" id="name" class="form-control rounded-0 text-dark border-dark border-2 fontH" placeholder="Damon Salvatore" required="">
+                                    <label for="name" class="text-dark">Name</label>
+                                </div>
+
+                                <!-- Mail -->
+                                <div class="form-floating mb-3">
+                                    <input type="email" name="loginMail" id="loginMail" class="form-control rounded-0 text-dark border-dark border-2 fontH" placeholder="Damon@vampire.com" required="">
+                                    <label for="loginMail" class="text-dark">Email</label>
+                                </div>
+
+                                <!-- Password -->
+                                <div class="form-floating mb-3">
+                                    <input type="password" name="password" id="password" class="form-control rounded-0 text-dark border-dark border-2 fontH" placeholder="Damon@123" required="">
+                                    <label for="password" class="text-dark">Password</label>
+                                </div>
+
+                                <button type="submit" class="btn btn-success w-100">Register</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer section -->
+    <footer class="bg-dark text-white">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 my-5">
+                    <div class="d-flex justify-content-between">
+                        <img src="./Hello Again, Explorer!_files/Wlogo.png" alt="Sharnap" height="100px" width="100px">
+                    </div>
+                </div>
+                <div class="col-md-3 line my-5">
+                    <p class="font text-secondary h5 mb-4">MENU</p>
+                    <a href="file:///D:/front-end/Landscape/index.html" class="font mb-1">HOME</a>
+                    <a href="file:///D:/front-end/Landscape/about.html" class="font mb-1">ABOUT</a>
+                    <a href="file:///D:/front-end/Landscape/service.html" class="font mb-1">SERVICES</a>
+                    <a href="file:///D:/front-end/Landscape/index.html" class="font mb-1">CONTACT</a>
+                </div>
+                <div class="col-md-3 line my-5">
+                    <p class="font text-secondary h5 mb-4">ADDRESS</p>
+                    <p class="font h6">Suite#59</p>
+                    <p class="font h6">Riverfront Plaza</p>
+                    <p class="font h6">Kingston Avenue</p>
+                    <p class="font h6">London</p>
+                    <p class="font h6">E1 6QT</p>
+                </div>
+                <div class="col-md-3 line my-5">
+                    <p class="font text-secondary h5 mb-4">CONTACT</p>
+                    <p class="font h6">E: info@sharnap.com</p>
+                    <p class="font h6">T: 123 456 500</p>
+                    <p class="font h6">F: 123 456 900</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS link -->
+    <script src="./Hello Again, Explorer!_files/bootstrap.bundle.min.js.download" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+    <script>
+        const loginForm = document.getElementById("loginForm");
+        const registerForm = document.getElementById("registerForm");
+        const showLogin = document.getElementById("showLogin");
+        const showRegister = document.getElementById("showRegister");
+
+        showLogin.addEventListener("click", () => {
+            loginForm.style.display = "block";
+            registerForm.style.display = "none";
+        });
+
+        showRegister.addEventListener("click", () => {
+            loginForm.style.display = "none";
+            registerForm.style.display = "block";
+        });
+    </script>
+
+
+
+</body></html>

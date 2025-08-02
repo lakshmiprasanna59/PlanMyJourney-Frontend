@@ -1,0 +1,79 @@
+.carousel {
+  position: relative;
+}
+
+.carousel-caption h5 {
+  font-size: 2.9rem;
+}
+
+.carousel-caption p {
+  font-size: 1.1rem;
+}
+
+.topRight {
+  text-align: start;
+  width: 37.5rem;
+  height: 9.375rem;
+  top: 6.25rem;
+  left: 56.25rem;
+  right: 0.625rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding-left: 0.625rem;
+}
+
+.tagLine {
+  font-family: "Dancing Script", "cursive";
+  font-size: 60px;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.c1, .c2, .c3 {
+  background-color: rgba(169, 169, 169, 0.2);
+  transition: background-color 0.5s ease-in;
+}
+
+.c1:hover {
+  background-color: rgba(113, 1, 1, 0.2);
+}
+
+.c2:hover {
+  background-color: rgba(85, 107, 47, 0.2);
+}
+
+.c3:hover {
+  background-color: rgba(3, 3, 93, 0.2);
+}
+
+.quote, .name {
+  transition: all 0.5s ease-in;
+}
+
+.img_fade {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.img_fade:hover .caption{
+  opacity: 1;
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 15px;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+

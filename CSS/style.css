@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 15px;
+}
+
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.nav a {
+  font-family: "Cinzel", "serif";
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 0 0 5px black;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: lightblue;
+  font-size: 15px;
+  text-decoration: overline;
+}
+
+.font {
+  font-family: "Alumni Sans SC", "sans-serif";
+}
+
+.fontH {
+  font-family: "Barlow Condensed", "sans-serif";
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.line {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}

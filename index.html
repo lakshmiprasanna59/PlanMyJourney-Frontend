@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ExploreEase - Sharnap</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Dancing+Script:wght@500&display=swap" rel="stylesheet"/>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./CSS/index.css"/>
+
+  <!-- Common Style Sheet -->
+  <link rel="stylesheet" href="./CSS/style.css">
+
+</head>
+<body>
+
+  <!-- Carousel with Navbar Overlay -->
+  <div id="slider" class="carousel slide" data-bs-ride="carousel">
+    
+    <nav class="navbar navbar-expand-lg  nav">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-5" href="index.html">
+          <img src="./assets/Wlogo.png" alt="Sharnap" height="70" width="70"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- Left-side nav items -->
+          <ul class="navbar-nav">
+            <li class="nav-item mx-4">
+              <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="./service.html">Services</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <!-- Right-side (user icon) -->
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item me-5">
+              <a class="nav-link" href="./user.html">
+                <i class="fa-regular fa-user fa-2x"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#slider" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#slider" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#slider" data-bs-slide-to="3"></button>
+    </div>
+
+    <!-- Carousel Slides -->
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="./assets/1.jpg" class="d-block w-100 img-fluid" alt="..."/>
+        <div class="carousel-caption d-none d-md-block topRight bg-light bg-opacity-10">
+          <h5>Make It Count</h5>
+          <p>Every move, every mile — it's all about where you land.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./assets/2.jpg" class="d-block w-100 img-fluid" alt="..."/>
+        <div class="carousel-caption d-none d-md-block text-dark topRight">
+          <h5>Seen & Felt</h5>
+          <p>Some journeys are captured, others are felt.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./assets/4.jpg" class="d-block w-100 img-fluid" alt="..."/>
+        <div class="carousel-caption d-none d-md-block topRight text-dark">
+          <h5>Feel the Place</h5>
+          <p>Some places don’t just look beautiful, they make you feel alive.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./assets/5.jpg" class="d-block w-100 img-fluid" alt="..."/>
+        <div class="carousel-caption d-none d-md-block topRight">
+          <h5>Go Together</h5>
+          <p>In the map of memories, family makes every stop worth it.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- Tagline Section -->
+  <div class="p-5">
+    <p class="h1 tagLine">"Plan Less. Travel More. We Handle the Rest."</p>
+    <p class="h6 text-end">~ Not just a travel agency. We create moments that matter. Where every journey is a story, and every destination feels like home.</p>
+  </div>
+
+  <!-- Image + Text Section -->
+  <div class="container-fluid">
+
+    <!-- row-1 -->
+    <div class="row mb-3">
+      <div class="col-md-6">
+          <img src="./assets/pic-1.webp" alt="Explore" class="img-fluid" style="width: 100%; height:100%;"/>
+      </div>
+      <div class="col-md-6 middle ">
+        <div class="bg-secondary bg-opacity-10 p-5">
+          <p class="h1 fontH">Start your next journey with us</p>
+          <p class="mb-3 font" style="text-transform: uppercase;">-easy, trusted, unforgettable.</p>
+          <div>
+            <p class="font">
+              Step into a world where every journey is curated with care, precision, and passion. From the moment you decide to travel, we’re here to guide you with care and confidence. We believe travel should be stress-free, safe, and filled with meaningful experiences. Let us turn your next journey into something truly unforgettable.
+            </p>
+            <div style="display: flex; justify-content: center;">
+              <a href="./about.html" class="btn btn-md btn-outline-dark py-3 px-4 rounded-0">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- row-2 -->
+    <div class="row mb-5 pb-5">
+      <div class="col-md-6 middle">
+        <div class="bg-secondary bg-opacity-10 p-5">
+          <p class="h1 fontH">Tell us what you love</p>
+          <p class="mb-3 font" style="text-transform: uppercase;">-adventure, culture, nature, or chill vibes.</p>
+          <div>
+            <p class="font">
+              We’ll match you with travel experiences that suit your taste. With just a few clicks, we'll match you to handpicked destinations and experiences that align with your interests, style, and budget. Whether it’s a weekend escape or the trip of a lifetime, we’ll help you plan it with ease and excitement. Let the journey to your perfect trip begin now!
+            </p>
+            <div style="display: flex; justify-content: center;">
+              <a href="./service.html" class="btn btn-md btn-outline-dark py-3 px-4 rounded-0">Start Planning</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="./assets/pic-2.png" alt="Explore" class="img-fluid" style="width: 100%; height:100%;"/>
+      </div>
+    </div>
+
+    <!-- row-3 -->
+    <div class="row mb-5 pb-5">
+        <div class="col-md-3 middle">
+          <div>
+            <div class="font fw-bold h1">342</div>
+            <div class="font h6">Cups of coffee</div>
+          </div>
+        </div>
+        <div class="col-md-3 middle">
+          <div>
+            <div class="font fw-bold h1">756</div>
+            <div class="font h6">Bicycle kilometres</div>
+          </div>
+        </div>
+        <div class="col-md-3 middle">
+          <div>
+            <div class="font fw-bold h1">419</div>
+            <div class="font h6">Brainstorm sessions</div>
+          </div>
+        </div>
+        <div class="col-md-3 middle">
+          <div>
+            <div class="font fw-bold h1">284</div>
+            <div class="font h6">Video hours</div>
+          </div>
+        </div>
+    </div>
+
+    <!-- row-4 -->
+    <div class="row mb-3">
+      <div class="col-md-6">
+          <img src="./assets/pic-3.jpg" alt="Explore" class="img-fluid" style="width: 100%; height:100%;"/>
+      </div>
+      <div class="col-md-6 middle ">
+        <div class="bg-secondary bg-opacity-10 p-5">
+          <p class="h1 fontH">Slide Into Our Inbox</p>
+          <p class="mb-3 font" style="text-transform: uppercase;">-Let’s talk plans, dreams, and destinations.</p>
+          <div>
+            <p class="font">
+              Whether you're daydreaming about your next escape or ready to lock in plans, we’re all ears. Our team’s here to vibe with your vision and help bring it to life, no stress, no pressure. Just drop us a message and let’s start building your next great adventure, together.
+            </p>
+            <div style="display: flex; justify-content: center;">
+              <a href="#contact" class="btn btn-md btn-outline-dark py-3 px-4 rounded-0">Get In Touch</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- row-5 -->
+    <div class="row mb-3">
+      <div class="col-md-4">
+        <div class="m-2 c1">
+          <div class=" p-4">
+            <div class="text-center my-4 ">
+              <i class="fa-solid fa-calendar-days fa-4x"></i>
+            </div>
+            <p class="h1 fontH text-center">Flexibility</p>
+            <p class="font" style="text-align: center;">Focus on freedom of choice, adaptable plans, and personalized journeys that move with your life. Whether it’s changing your dates, destinations, or daily plans we make it simple. Because real travel isn’t one-size-fits-all. With us, your adventure stays open from the moment you book to the day you return.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="m-2 c2">
+          <div class=" p-4">
+            <div class="text-center my-4 ">
+              <i class="fa-solid fa-sack-dollar fa-4x"></i>
+            </div>
+            <p class="h1 fontH text-center">Affordability</p>
+            <p class="font" style="text-align: center;">Focus on smart travel without compromise. We believe travel should be for everyone. That’s why we offer pricing that works for your lifestyle, with full transparency and zero hidden costs. From budget getaways to affordable luxury, we make sure value is built into every step of your journey.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="m-2 c3">
+          <div class="p-4">
+            <div class="text-center my-4 ">
+              <i class="fa-solid fa-handshake-simple fa-4x"></i>
+            </div>
+            <p class="h1 fontH text-center">Support</p>
+            <p class="font" style="text-align: center;">Focus on being there before, during, and after every journey. Questions? Concerns? Our team is available 24/7 with real people, not bots. Whether it’s a small request or an unexpected hurdle, we make sure help is always just one message away. Because you should never feel alone while exploring the world.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+
+  <div class="text-center m-5 pt-5 pb-3" id="portfolio">
+    <p class="h1 fontH">Loved by many.</p>
+    <p class="font mb-5"> Proven by experience.</p>
+
+    <div class="review-wrapper font">
+      <div class="quote" id="quoteText">
+        “Sharnap made our family trip absolutely stress-free. Every detail was planned with care — from airport pickup to cozy stays. We just enjoyed the journey!”
+      </div>
+      <div class="name" id="quoteAuthor">
+        — Lyra Veilstone
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid my-5">
+    <!-- Gallery Row-1 -->
+    <div class="row g-4 mb-3">
+      <!-- Heading -->
+      <div class="col-md-3 py-5 pe-5">
+        <p class="h1 fontH text-start">Traveler Gallery</p>
+        <p class="font text-start">- Captured by You, Curated by Us</p>
+        <p class="font text-start">A showcase of adventures captured by our community. Dive into unforgettable places, spontaneous smiles, and everything that makes a trip truly yours.</p>
+      </div>
+      <!-- Gallery Picture-1 -->
+      <div class="col-md-3">
+        <div class="img_fade">
+          <img src="./assets/img-1.jpg" class="img-fluid rounded shadow-sm" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-slide-to="0" />
+          <div class="caption">
+            <h4 class="fontH">Rise Above</h4>
+            <p class="font">A breathtaking silhouette captures the stillness of dawn, where freedom meets the peak of achievement.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Gallery Picture-2 -->
+      <div class="col-md-3">
+        <div class="img_fade">
+          <img src="./assets/img-2.jpg" class="img-fluid rounded shadow-sm img_fade" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-slide-to="1" />
+          <div class="caption">
+            <h4 class="fontH">Tides of Togetherness</h4>
+            <p class="font">Hand in hand, hearts aligned, memories made where the sea kisses the shore.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Gallery Picture-3 -->
+      <div class="col-md-3">
+        <div class="img_fade">
+          <img src="./assets/img-3.jpg" class="img-fluid rounded shadow-sm img_fade" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-slide-to="2" />
+          <div class="caption">
+            <h4 class="fontH">Colors of Culture</h4>
+            <p class="font">A kaleidoscope of life vibrant streets filled with stories, flavors, and the pulse of the local soul.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Gallery Row-1 -->
+    <div class="row g-3">
+      <!-- Gallery Picture-4 -->
+      <div class="col-md-3">
+        <div class="img_fade">
+          <img src="./assets/img-4.jpg" class="img-fluid rounded shadow-sm img_fade" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-slide-to="3" />
+          <div class="caption">
+            <h4 class="fontH">Fireside Moments</h4>
+            <p class="font">Stars above, warmth below laughter and connection glowing through the night.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Gallery Picture-5 -->
+      <div class="col-md-3">
+        <div class="img_fade">
+          <img src="./assets/img-5.jpg" class="img-fluid rounded shadow-sm img_fade" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-slide-to="4" />
+          <div class="caption">
+            <h4 class="fontH">Through the Glass</h4>
+            <p class="font">Stillness in motion. A quiet ride that lets the mind wander beyond the tracks.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Gallery Picture-6 -->
+      <div class="col-md-3">
+        <div class="img_fade">
+          <img src="./assets/img-6.jpg" class="img-fluid rounded shadow-sm img_fade" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-slide-to="5" />
+          <div class="caption">
+            <h4 class="fontH">Adrenaline Trails</h4>
+            <p class="font">Feel the pulse of the wild every turn a thrill, every heartbeat a victory.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Gallery Picture-7 -->
+      <div class="col-md-3">
+        <div class="img_fade">
+          <img src="./assets/img-7.png" class="img-fluid rounded shadow-sm img_fade" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-slide-to="6" />
+          <div class="caption">
+            <h4 class="fontH">Whispers of Wonder</h4>
+            <p class="font">Beyond the usual path lies magic untouched the kind only true explorers find.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Modal with Carousel -->
+  <div class="modal fade" id="galleryModal" tabindex="-1" aria-hidden="true" >
+    <div class="modal-dialog modal-dialog-centered modal-fullscreen-xl-down	">
+      <div class="modal-content bg-dark bg-opacity-10">
+
+        <!-- Modal Header -->>
+        <div class="modal-header bg-light">
+          <h5 class="modal-title">Traveler Gallery</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <!-- Images -->
+        <div class="modal-body p-5">
+          <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/img-1.jpg" class="d-block w-100 img-fluid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img-2.jpg" class="d-block w-100 img-fluid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img-3.jpg" class="d-block w-100 img-fluid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img-4.jpg" class="d-block w-100 img-fluid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img-5.jpg" class="d-block w-100 img-fluid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img-6.jpg" class="d-block w-100 img-fluid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img-7.png" class="d-block w-100 img-fluid" alt="...">
+              </div>
+            </div>
+
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="contact">
+    <div class="row">
+      <div class="col-md-6 text-center py-5 m-auto">
+        <!-- Form Heading -->
+
+        <p class="fontH h1">Consult Us</p>
+        <p class="font mb-5">Need clarity? We're just one message away.</p>
+         <!--
+        <p class="fontH h1">Travel Request Form</p>
+        <p class="font mb-5">Your trip, our task.</p> 
+          -->
+        <!-- Form -->
+        <form action="">
+          <!-- Name -->
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control form-control-sm border-dark border-2 rounded-0" id="name" placeholder="Enter your name" name="name">
+            <label for="name" class="text-dark">Enter your name</label> 
+          </div>
+          <!-- Email -->
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control form-control-sm  border-dark border-2 rounded-0" id="email" placeholder="Enter your email address" name="email">
+            <label for="email" class="text-dark">Enter your email address</label>
+          </div>
+          <!-- Message -->
+          <div class="form-floating">
+            <textarea class="form-control border-dark border-2 rounded-0" placeholder="Leave your message here" id="msg" style="height: 100px" name="msg"></textarea>
+            <label for="msg" class="text-dark">Leave your message here</label>
+          </div>
+          
+          <button type="submit" class="btn btn-outline-dark my-5 py-3 px-5 rounded-0 border-2 border-dark">Submit</button>
+
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="bg-dark text-white">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 my-5">
+          <div class="d-flex justify-content-between">
+            <img src="./assets/Wlogo.png" alt="Sharnap" height="100px" width="100px">
+          </div>
+        </div>
+        <div class="col-md-3 line my-5">
+          <p class="font text-secondary h5 mb-4">MENU</p>
+          <a href="./about.html" class="font mb-1">ABOUT</a>
+          <a href="./service.html" class="font mb-1">SERVICES</a>
+          <a href="#portfolio" class="font mb-1">PORTFOLIO</a>
+          <a href="#contact" class="font mb-1">CONTACT</a>
+        </div>
+        <div class="col-md-3 line my-5">
+          <p class="font text-secondary h5 mb-4">ADDRESS</p>
+          <p class="font h6">Suite#59</p>
+          <p class="font h6">Riverfront Plaza</p>
+          <p class="font h6">Kingston Avenue</p>
+          <p class="font h6">London</p>
+          <p class="font h6">E1 6QT</p>
+        </div>
+        <div class="col-md-3 line my-5">
+          <p class="font text-secondary h5 mb-4">CONTACT</p>
+          <p class="font h6">E: info@sharnap.com</p>
+          <p class="font h6">T: 123 456 500</p>
+          <p class="font h6">F: 123 456 900</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Custom JS -->
+   <script src="./JS/app.js"></script>
+  
+   <!-- Bootstrap Script link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
